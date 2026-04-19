@@ -19,7 +19,6 @@ function App() {
     };
     setStudents([...students, newStudent]);
   };
-<N></N>
   const updateScore = (id, newScore) => {
     setStudents(students.map(student =>
       student.id === id ? { ...student, score: parseInt(newScore) } : student
